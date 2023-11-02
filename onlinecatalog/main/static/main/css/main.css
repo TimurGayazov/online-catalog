@@ -1,0 +1,322 @@
+*{
+    font-family: Trebuchet MS;
+}
+
+body{
+    background: #141414;
+    color: #F5FFFA;
+
+}
+
+.center_block{
+    margin: auto;
+    margin-top: 3%;
+    width: 95%;
+    height: auto;
+    margin-bottom: 3%;
+    padding: 0 0 3% 0;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0D0D0D ;
+}
+
+.navbar{
+    border-radius:10px;
+}
+
+.header_style{
+    width: 95%;
+    margin: auto;
+    margin-top:1%;
+    border-radius:10px;
+    box-shadow: 0 0 15px #0D0D0D ;
+}
+.site_header a{
+    font-size: 150%;
+}
+
+.register_login{
+    margin: auto;
+    margin-top: 3%;
+    padding:1%;
+    width: 30%;
+    height: auto;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0D0D0D ;
+}
+
+.shops_main_block{
+    margin: auto;
+    margin-top: 3%;
+    width: 95%;
+    height: auto;
+    margin-bottom: 3%;
+    padding: 0 0 3% 0;
+}
+
+.shops_main_block h1{
+    color:AliceBlue;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0D0D0D;
+}
+
+.shop_page_main_block1{
+    margin: auto;
+    margin-top: 2%;
+    width: 70%;
+    height: auto;
+    margin-bottom: 3%;
+    padding: 0 0 3% 0;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0D0D0D;
+}
+
+.shop_cover{
+    width:95%;
+    margin:auto;
+    height:20vh;
+    border-radius:10px;
+    box-shadow: 0 0 15px #0D0D0D;
+}
+
+.shop_card{
+    margin: auto;
+    margin-top: 3%;
+    padding:3%;
+    width: 100%;
+    height:auto;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0D0D0D ;
+}
+
+.shop_page_main_block{
+    width:95%;
+    height:auto;
+    margin:auto;
+    border:1px solid red;
+    display:flex;
+}
+
+.shop_page_info_block{
+    width:20%;
+    height:70vh;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0D0D0D ;
+    padding:0.5%;
+}
+
+.shop_page_products_block{
+    width:78%;
+    margin-left:2%;
+    height:1000px;
+    border:1px solid green;
+
+}
+
+.edit_shop_edit_form{
+    width:50%;
+    height:auto;
+    margin:auto;
+    border-radius:10px;
+    background-color: #212529;
+    margin-top:1%;
+    box-shadow: 0 0 15px #0D0D0D ;
+    padding:0.5%;
+}
+
+.profile_card{
+    margin: auto;
+    padding:1%;
+    width: 100%;
+    height: 100%;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0D0D0D ;
+
+}
+
+.profile_card_buttons{
+    margin:auto;
+    margin-top: 3%;
+    width:95%;
+    height:100%;
+
+}
+
+.profile_buttons{
+    margin: auto;
+    padding:1%;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.profile_one_button{
+    padding:2%;
+    width:38%;
+    height:40%;
+    margin:auto;
+    color:white;
+
+    display:flex;
+    justify-content: center;
+    background-color: #212529;
+    border-radius:10px;
+    box-shadow: 0 0 15px #0D0D0D ;
+    transition: all ease 0.3s;
+
+}
+
+.profile_one_button:hover{
+    padding:2%;
+    width:39%;
+    height:41%;
+    margin:auto;
+    color:white;
+    display:flex;
+    justify-content: center;
+    background-color: #212529;
+    border-radius:10px;
+    box-shadow: 0 0 30px #0D0D0D ;
+    transition: all ease 0.3s;
+
+}
+
+.footer_block{
+    margin:auto;
+    position: relative;
+    margin-top:1%;
+    width:95%;
+    height:auto;
+    background-color: #212529;
+    border-radius:10px;
+    box-shadow: 0 0 15px #0D0D0D;
+    border:1px solid red;
+    margin-bottom:1%;
+}
+
+.modal_form{
+    background-color: #212529;
+    border-radius:10px;
+    color:AliceBlue;
+    box-shadow: 0 0 30px #0D0D0D;
+}
+
+.create_shop_btn{
+    background-color:#212529;
+    border:0px;
+}
+
+.create_shop_form{
+    padding:1%;
+    width: 100%;
+    height: auto;
+    background-color: #212529;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+    background-size: contain;
+    border-radius: 8px;
+    border: 3px solid #181818;
+}
+::-webkit-scrollbar {
+    width: 14px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-color: #181818;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+    border-color: #181818;
+    opacity: 0;
+}
+
+@media (max-width: 992px) {
+    .profile_one_button{
+        padding:2%;
+        width:38%;
+        height:40%;
+        margin:auto;
+        color:white;
+        display:flex;
+        justify-content: center;
+        background-color: #212529;
+        border-radius:10px;
+        box-shadow: 0 0 15px #0D0D0D ;
+        transition: all ease 0.3s;
+        font-size:100%;
+
+    }
+    .register_login{
+        margin: auto;
+        margin-top: 3%;
+        padding:2%;
+        width: 60%;
+        height: auto;
+        background-color: #212529;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #0D0D0D ;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile_card_buttons{
+        margin:auto;
+        margin-top: 3%;
+        width:95%;
+        height:70vh;
+
+    }
+    .profile_buttons{
+        margin: auto;
+        padding:1%;
+        width: 100%;
+        height: 30vh;
+
+
+    }
+    .register_login{
+        margin: auto;
+        margin-top: 3%;
+        padding:2%;
+        width: 80%;
+        height: auto;
+        background-color: #212529;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #0D0D0D ;
+    }
+}
+
+@media (max-width: 423px) {
+    .profile_one_button{
+        padding:2%;
+        width:39%;
+        height:41%;
+        margin:auto;
+        color:white;
+        display:flex;
+        justify-content: center;
+        background-color: #212529;
+        border-radius:10px;
+        box-shadow: 0 0 15px #0D0D0D ;
+        transition: all ease 0.3s;
+        font-size:100%;
+
+    }
+}

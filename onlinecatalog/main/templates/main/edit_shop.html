@@ -1,0 +1,23 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}
+Изменение данных магазина
+{% endblock %}
+
+{% block all_content %}
+
+<div class="edit_shop_edit_form">
+    <h3 class="text-center">Редактирование данных магазина</h3>
+</div>
+<div class="edit_shop_edit_form">
+    <div class="shop_cover" style="border: 2px dashed white; height:10vh;">
+    </div>
+    <form method="POST">
+        {% csrf_token %}
+
+        {{ form.url_name }}
+        {{ form.as_p }}
+        <button type="submit"> update</button>
+    </form>
+</div>
+{% endblock %}
